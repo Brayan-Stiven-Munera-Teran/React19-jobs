@@ -1,15 +1,15 @@
 import Hero from "../components/Hero"
 import HomeCards from "../components/HomeCards"
-import JobListing from "../components/JobListings"
-import ViewAllJobs from "../components/ViewAllJobs" 
+import JobListings from "../components/JobListings"
+import ViewAllJobs from "../components/ViewAlljobs" 
 
 const HomePage = () => {
   return (
     <>
       <Hero />
       <HomeCards />
-      <JobListing />
-      <ViewAllJobs />    
+      <JobListings isHome={true} />
+      <ViewAllJobs/>    
     </>
     
   )
