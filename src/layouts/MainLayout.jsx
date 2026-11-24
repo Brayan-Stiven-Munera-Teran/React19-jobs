@@ -1,11 +1,13 @@
-import { Outlet } from "react-router"
-import Navbar from "../components/Navbar"
+import { Outlet } from 'react-router'
+import Navbar from '../components/Navbar'
+import { ToastContainer } from 'react-toastify';
 
 const MainLayout = () => {
   return (
     <>
-        <Navbar />
-        <Outlet />
+      <Navbar/>
+      <Outlet/>
+      <ToastContainer/>
     </>
   )
 }
